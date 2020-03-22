@@ -1,0 +1,78 @@
+- BasedOnStyle:
+  - llvm
+  - google
+  - chromium
+  - mozilla
+  - webkit
+  - microsoft
+- IndentWidth: [4, 2, 8]
+- UseTab:
+    - Never
+    - ForIndentation4: {UseTab: ForIndentation, TabWidth: 4}
+    - ForIndentation8: {UseTab: ForIndentation, TabWidth: 8}
+    - ForIndentation2: {UseTab: ForIndentation, TabWidth: 2}
+    - ForContinuationAndIndentation4: {UseTab: ForContinuationAndIndentation, TabWidth: 4}
+    - ForContinuationAndIndentation8: {UseTab: ForContinuationAndIndentation, TabWidth: 8}
+    - ForContinuationAndIndentation2: {UseTab: ForContinuationAndIndentation, TabWidth: 2}
+    - Always4: {UseTab: Always, TabWidth: 4}
+    - Always8: {UseTab: Always, TabWidth: 8}
+    - Always2: {UseTab: Always, TabWidth: 2}
+
+- NamespaceIndentation: [None, Inner, All]
+- BreakBeforeBraces: [Attach, Linux, Mozilla, Stroustrup, Allman, GNU, WebKit]
+- SpacesInParentheses: [true, false]
+- SpaceBeforeParens: [true, false]
+- SpaceBeforeAssignmentOperators: [true, false]
+- AlignConsecutiveAssignments: [true, false]
+- AlwaysBreakAfterReturnType: [None, All, TopLevel, AllDefinitions, TopLevelDefinitions]
+- AlignConsecutiveDeclarations: [true, false]
+- AlwaysBreakAfterDefinitionReturnType: [None, All, TopLevel]
+- AlignAfterOpenBracket: [Align, DontAlign, AlwaysBreak]
+- PointerAlignment: [Left, Right, Middle]
+- IndentCaseLabels: [true, false]
+
+- SpaceAfterCStyleCast: [true, false]
+- SpaceAfterLogicalNot: [true, false]
+- SpaceAfterTemplateKeyword: [true, false]
+- SpaceBeforeCpp11BracedList: [true, false]
+- SpaceBeforeCtorInitializerColon: [true, false]
+- SpaceBeforeInheritanceColon: [true, false]
+- SpaceBeforeRangeBasedForLoopColon: [true, false]
+- SpacesInAngles: [true, false]
+- SpacesInCStyleCastParentheses: [true, false]
+- SpacesInContainerLiterals: [true, false]
+- SpacesInSquareBrackets: [true, false]
+- AllowShortIfStatementsOnASingleLine: [Never, WithoutElse, Always]
+- AllowShortLambdasOnASingleLine: [None, Empty, Inline, All]
+- AllowShortLoopsOnASingleLine: [true, false]
+
+- BinPackArguments: [true, false]
+- BinPackParameters:  [true, false]
+- AccessModifierOffset: [4, 2, 8]
+- AlignEscapedNewlines: [DontAlign, Left, Right]
+- AlignOperands: [true, false]
+- AlignTrailingComments: [true, false]
+- AllowAllArgumentsOnNextLine: [true, false]
+- AllowAllConstructorInitializersOnNextLine: [true, false]
+- AllowAllParametersOfDeclarationOnNextLine: [true, false]
+- AllowShortBlocksOnASingleLine: [true, false]
+- AllowShortCaseLabelsOnASingleLine: [true, false]
+- AllowShortFunctionsOnASingleLine: [None, InlineOnly, Empty, Inline, All]
+- AlwaysBreakBeforeMultilineStrings: [true, false]
+- AlwaysBreakTemplateDeclarations: [No, MultiLine, Yes]
+- BreakBeforeBinaryOperators: [None, NonAssignment, All]
+- BreakBeforeTernaryOperators: [true, false]
+- BreakConstructorInitializers: [BeforeColon, BeforeComma, AfterColon]
+- BreakInheritanceList: [BeforeColon, BeforeComma, AfterColon]
+- BreakStringLiterals: [true, false]
+- CompactNamespaces: [true, false]
+- ConstructorInitializerAllOnOneLineOrOnePerLine: [true, false]
+- ConstructorInitializerIndentWidth: [2, 4, 8]
+- Cpp11BracedListStyle: [true, false]
+- IndentPPDirectives: [None, AfterHash, BeforeHash]
+- IndentWrappedFunctionNames: [true, false]
+- KeepEmptyLinesAtTheStartOfBlocks: [false, true]
+- MaxEmptyLinesToKeep: [1, 2, 3, 4, 8]
+- ReflowComments: [true, false]
+- SortUsingDeclarations: [true, false]
+- FixNamespaceComments: [true, false]
